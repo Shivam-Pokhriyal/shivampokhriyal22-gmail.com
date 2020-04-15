@@ -13,6 +13,8 @@ import Header from './Components/header/header.component'
 import {selectCurrentUser} from './redux/user/user.selectors'
 import { auth, createUserProfileDocument } from './firebase/firebase.util'
 import SignINAndSignUpPage from './Pages/sign-in-and-sign-up/sign-in-and-sign-up.component'
+
+
 class App extends React.Component {
 
   unsubscribeFromAuth=null;
